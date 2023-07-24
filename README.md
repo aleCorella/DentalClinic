@@ -1,23 +1,51 @@
-# Customer Service Simulation with Python
-This project aims to develop a Python algorithm to simulate customer service and basic operations. The simulation includes the management of clients, realistic interactions, and an interactive experience. The goal is to create an efficient tool to optimize customer service, enhance user satisfaction, and improve overall operations.
+# Management of Customers and Treatments 💼
 
-## 📝 Features
+This program is designed to manage customer records and treatments. It offers various options for maintaining customer information, managing treatments, generating invoices, and closing the cash register.
 
-- Simulate realistic interactions with customers.
-- Manage client information and inquiries.
-- Improve overall customer service operations.
-- Enhance user satisfaction through an interactive experience.
+## 📋 Main Menu
 
-## 💻 Installation and Usage
+The main menu presents the following options:
 
-1. Clone this repository.
-2. Open the `customer_service.py` file in your Python IDE.
-3. Run the script to start the customer service simulation.
-4. Follow the on-screen instructions for interacting with customers and managing inquiries.
+1. **Maintenance of Customers:** Allows you to include, modify, and remove customer records. The system also provides an option to display customer details.
 
-## 📝 How to Use
+2. **Maintenance of Treatments:** Provides functionalities to list, include, modify, and remove treatment information.
 
-1. Upon running the script, the simulation will start.
-2. You will be presented with a menu to manage customer inquiries.
-3. Use the appropriate options to interact with customers, view client information, and handle inquiries.
-4. The simulation will provide feedback and responses based on your actions.
+3. **Invoicing:** Allows you to create invoices for customers. The user can select the customer, treatment, and payment amount.
+
+4. **Cash Register Closing:** Provides a graphical user interface to manage the cash register and display the total income for treatments.
+
+5. **Exit:** Allows you to exit the program.
+
+## 🗄️ Maintenance of Customers
+
+The maintenance of customers option allows you to:
+
+- **Include Customer:** Add a new customer record with their name, ID number, phone number, email, and a unique code.
+- **Modify Customer:** Update customer details such as name, ID number, phone number, and email.
+- **Remove Customer:** Delete a customer record based on their name.
+- **Display Customer:** View customer information based on their name.
+
+## 💼 Maintenance of Treatments
+
+The maintenance of treatments option allows you to:
+
+- **List Treatments:** Display a list of available treatments along with their respective prices.
+- **Include Treatment:** Add a new treatment record with its name, the person in charge, and the price.
+- **Modify Treatment:** Update treatment details such as name, person in charge, and price.
+- **Remove Treatment:** Delete a treatment record based on its name.
+
+## 💸 Invoicing
+
+The invoicing option enables generating invoices for customers and treatments. It allows you to select the customer, treatment, and specify the payment amount.
+
+## 📈 Cash Register Closing
+
+The cash register closing option provides an interactive graphical interface. It allows you to select treatments, specify the quantity, and calculates the total income for the selected treatments.
+
+## 🚀 Getting Started
+
+To run the program, execute the Python script, and follow the instructions in the console. The program utilizes the `tkinter` library for graphical user interfaces.
+
+Feel free to explore the different functionalities of the Management of Customers and Treatments program and optimize your customer service and operations!
+
+For any inquiries, contributions, or feedback, please don't hesitate to reach out. Happy managing!
