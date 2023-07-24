@@ -1,7 +1,4 @@
 # Customer Service Simulation with Python
-
-![Customer Service](customer-service.png)
-
 This project aims to develop a Python algorithm to simulate customer service and basic operations. The simulation includes the management of clients, realistic interactions, and an interactive experience. The goal is to create an efficient tool to optimize customer service, enhance user satisfaction, and improve overall operations.
 
 ## 📝 Features
